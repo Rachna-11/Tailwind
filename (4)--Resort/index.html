@@ -1,0 +1,521 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- icons link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<style>
+    /* navbar links */
+   .main .navbar .navleft a:hover {
+    content: "";
+    border-bottom: 3px solid white;
+   }
+
+    /* slider start */
+    swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    swiper-slide {
+      /* text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center; */
+    }
+
+    swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    /* slider end */
+
+     .con .photo{
+        overflow: hidden;
+        transition: 1s;
+      }
+      .con .photo  img:hover{
+      transform: scale(1.1);
+      overflow: hidden;
+      transition: 0.5s;
+    }
+    
+    .offers .con li::before{
+      background-color: pink;
+      width: 8px;
+    }
+
+    button{
+      transition: 1s; 
+       }
+      
+       .youtube{
+        background-blend-mode: soft-light;
+       }
+
+                    
+
+        /* Rooms Start  */
+        #rooms{
+          background-blend-mode: soft-light;
+       
+        }
+
+        .row {
+          overflow: hidden;
+
+        }
+        .row   .room1:hover{
+          transform: scale(1.1);
+          transition: 1s; 
+          overflow: hidden;
+          padding-bottom: 50px !important;
+        }
+      
+
+        
+        /* Rooms End  */
+  
+</style>
+<body>      
+    
+        <!-- Navbar Start -->
+
+        <div class="main w-auto lg:w-100 h-[700px] bg-slate-400 bg-[url(Assets/banner.)] bg-cover bg-no-repeat">
+               
+                <!-- slider start -->
+                <swiper-container class="mySwiper w-100 h-[700px]  " navigation="true" >
+                    
+                    <swiper-slide class="bg-[url(Assets/banner.png)]"> 
+                       <div class="navbar w-[100%] h-[100px] pt-[70px] hidden lg:flex justify-evenly items-center">
+                      <div class="navleft w-[30%] h-[60px] flex justify-around pt-[20px] font-sans font-semibold text-white">
+                          <a href="" class="border-b">Home</a>
+                          <a href="">Rooms</a>
+                          <a href="">About</a>
+                          <a href="">Blog</a>
+                          <a href="">Pages</a>
+                      </div>
+                      <div class="navcenter w-auto lg:w-[20%]  h-[100px]  flex justify-center items-center">
+                          <img src="Assets/logo.png" class="w-[100%] lg:w-[50%]">
+                      </div>
+                      <div class="navright w-[30%] h-[100px] text-white flex items-center justify-end">
+                          <i class="ri-facebook-circle-fill pr-[20px] lg:mr-0"></i>
+                          <i class="ri-instagram-line pr-[20px] lg:mr-0"></i>
+                          <i class="ri-twitter-fill"></i>
+                          <button class="w-[30%] text-[13px] text-white ml-[30px] bg-[#1DA8FF] h-[40px] hover:border hover:bg-transparent">BOOK ROOM</button>
+                      </div>
+
+                     
+                    
+                  </div>
+
+                  <!-- small Menubar Start -->
+
+                  <div class="smallmenubar  lg:hidden w-100 h-[80px] pt-[20px] ">
+
+                    <div class="logo ml-[20px]">
+                      <img src="Assets/logo.png" class="w-[10%]">
+                    </div>
+  
+  
+                    <div class="menubar text-white mt-[20px] text-[20px] w-[100%] h-[40px] bg-[#4C4C4C] flex items-center justify-end ">
+                      
+                      <div class="menu flex bg-black w-auto lg:w-[12%] mr-[20px] rounded-[10px]">
+
+                        <p class="ml-[10px] ">Menu</p>
+                        <i class="ri-menu-line ml-[20px] mr-[30px]"></i>
+                      </div>
+
+                    </div>
+  
+                    
+                    <div class="menulinks relative w-100 h-[300px] bg-[#4C4C4C] flex flex-col justify-around items-center text-white">
+                      <a href="" >Home</a>
+                      <a href="">Rooms</a>
+                      <a href="">About</a>
+                      <a href="">Blog</a>
+                      <a href="">Pages</a>
+                    </div>
+            
+  
+                  </div>
+
+                  <!-- small Menubar End -->
+
+        
+                    <div class="text text-white text-center mt-[13%] ">
+                      <h1 class="text-[80px] font-mono">Montana Resort</h1>
+                      <p class="text-[25px]">Unlock to enjoy the view of Matine</p>
+    
+                    </div>
+               
+                </swiper-slide>
+
+                    <swiper-slide class="bg-[url(Assets/banner2.png)]">  
+                      <div class="navbar w-[100%] h-[100px] pt-[70px] flex justify-evenly items-center">
+                      <div class="navleft w-[30%] h-[60px]  flex justify-around pt-[20px] font-sans font-semibold text-white">
+                          <a href="" class="underline ">Home</a>
+                          <a href="">Rooms</a>
+                          <a href="">About</a>
+                          <a href="">Blog</a>
+                          <a href="">Pages</a>
+                      </div>
+                      <div class="navcenter w-[20%] h-[100px]  flex justify-center items-center">
+                          <img src="Assets/logo.png"  class="w-[40%]">
+                      </div>
+                      <div class="navright w-[30%] h-[100px] text-white flex items-center justify-end">
+                          <i class="ri-facebook-circle-fill pr-[20px] lg:mr-0"></i>
+                          <i class="ri-instagram-line pr-[20px] lg:mr-0"></i>
+                          <i class="ri-twitter-fill"></i>
+                          <button class="w-[30%] text-[13px] text-white ml-[30px] bg-[#1DA8FF] h-[40px]">BOOK ROOM</button>
+                      </div>
+                  </div> 
+                  
+                  <div class="text text-white text-center mt-[13%]">
+                    <h1 class="text-[80px] font-mono">Life Is Beautiful</h1>
+                    <p class="text-[25px]">Unlock to enjoy the view of Matine</p>
+  
+                  </div>
+             
+                </swiper-slide>
+             
+                  </swiper-container>
+                
+                <!-- slider end -->
+        </div>
+    
+        <!-- Navbar End -->
+
+
+        <!-- About US Start -->
+
+          <div class="About h-auto lg:h-[600px]  pl-[10%] pt-[50px] mt-[50px]">
+            <div class="row grid grid-cols-2 lg:grid-cols-4   w-100 h-auto lg:w-[80%] lg:h-[460px]">
+                <div class="row1 pb-[20px] lg:pb-0 col-span-2 pl-[40px] pt-[40px] pr-[50px]">
+                  <p class="text-[#3CB4FF]">About Us</p>
+                  <h1 class="text-[50px] mb-[20px]">A Luxuries Hotel <br>
+                    with Nature</h1>
+                    <p class="text-gray-500 mb-[30px]">Suscipit libero pretium nullam potenti. Interdum, blandit phasellus consectetuer dolor ornare dapibus enim ut tincidunt rhoncus tellus sollicitudin pede nam maecenas, dolor sem. Neque sollicitudin enim. Dapibus lorem feugiat facilisi faucibus et. Rhoncus.</p> 
+                <button class="float-left border-b border-black hover:text-blue-400 hover:border-blue-400 ">Learn More</button>
+                  </div>
+
+                  <div class="row1  col-span-2  flex w-100 mr-[0px] justify-center">
+                    <img src="Assets/about_1.png" class="mb-[30px] mr-[20px] h-[300px] lg:w-[60%] lg:h-[400px] ">
+                    <img src="Assets/about_2.png" class="mt-[40px] h-[300px] lg:w-[70%] lg:h-[400px]  ">
+                  </div>
+                  
+            </div>    
+           </div>
+
+        <!-- About US End -->
+
+
+        <!-- Ongoing Offers Start -->
+
+        <div class="offers w-auto lg:w-100 h-auto lg:h-[800px]  mt-[70px]">
+          <div class="text w-100 h-[100px]  text-center">
+            <p class="text-blue-400 text-[18px]">Our Offers</p>
+            <h1 class="text-[40px]">  Ongoing Offers</h1>
+          </div>
+
+          <div class="row grid grid-cols-1 lg:grid-cols-3 w-[70%]  ml-[16%] mt-[50px] gap-6">
+            <div class="con w-100 h-[570px]  text-gray-400">
+           
+              <div class="photo h-[320px] ">
+              <img src="Assets/1.png">
+            </div>
+
+              <p class="text-[23px] font-light mt-[20px] text-black mb-[10px]">Up to 35% savings on Club <br>
+                rooms and Suites</p>
+                   <li>Luxaries condition</li>
+                  <li>3 Adults & 2 Children size</li>
+                  <li>Sea view side</li>
+               
+                  <button class="border border-[#009DFF] w-[40%] lg:w-[94%] h-[40px] mt-[20px] ml-[11px] text-[#009DFF] hover:bg-[#009DFF] hover:text-white ">Book Now</button>
+               
+            </div>
+
+            <div class="con w-100 h-[570px]  text-gray-400">
+           
+              <div class="photo h-[320px] ">
+              <img src="Assets/2.png">
+            </div>
+
+              <p class="text-[23px] font-light mt-[20px] text-black mb-[10px]">Up to 35% savings on Club <br>
+                rooms and Suites</p>
+                   <li>Luxaries condition</li>
+                  <li>3 Adults & 2 Children size</li>
+                  <li>Sea view side</li>
+               
+                  <button class="border border-[#009DFF] w-[40%] lg:w-[94%] h-[40px] mt-[20px] ml-[11px] text-[#009DFF] hover:bg-[#009DFF] hover:text-white ">Book Now</button>
+               
+            </div>
+
+            <div class="con w-100 h-[570px]  text-gray-400">
+           
+              <div class="photo h-[320px] ">
+              <img src="Assets/3.png">
+            </div>
+
+              <p class="text-[23px] font-light mt-[20px] text-black mb-[10px]">Up to 35% savings on Club <br>
+                rooms and Suites</p>
+                   <li>Luxaries condition</li>
+                  <li>3 Adults & 2 Children size</li>
+                  <li>Sea view side</li>
+               
+                  <button class="border border-[#009DFF] w-[40%] lg:w-[94%] h-[40px] mt-[20px] ml-[11px] text-[#009DFF] hover:bg-[#009DFF] hover:text-white ">Book Now</button>
+               
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Ongoing Offers End -->
+
+
+          <!-- .youtube video Start -->
+           <div class="youtube w-100 h-[700px] bg-gray-700 bg-[url(Assets/video.png)] bg-cover bg-no-repeat text-center flex justify-center flex-col  text-white ">
+            <p>Montana Sea View</p>
+            <h1 class="text-[45px] font-serif">Relax and Enjoy your <br>
+              Vacation</h1>
+           </div>
+          <!-- .youtube video End -->
+
+            <!-- Fresh food Start -->
+            <div class="About h-auto lg:h-[600px]  pl-[10%] pt-[50px] mt-[50px]">
+              <div class="row grid grid-cols-2 lg:grid-cols-4   w-100 h-auto lg:w-[80%] lg:h-[460px]">
+                <div class="row1  col-span-2  flex w-100 mr-[0px] justify-center">
+                  <img src="Assets/about_1.png" class="mb-[30px] mr-[20px] h-[300px] lg:w-[60%] lg:h-[400px] ">
+                  <img src="Assets/about_2.png" class="mt-[40px] h-[300px] lg:w-[70%] lg:h-[400px]  ">
+                </div>
+
+                <div class="row1 pb-[20px] w-[100%]  lg:pb-0 col-span-2 ml-[50px] lg:pl-[40px] pt-[40px] pr-[150px] lg:pr-0">
+                    <p class="text-[#3CB4FF]">Delicious Food</p>
+                    <h1 class="text-[50px] mb-[20px]">We Serve Fresh and
+                       <br>
+                       Delicious Food</h1>
+                      <p class="text-gray-500 mb-[30px]">Suscipit libero pretium nullam potenti. Interdum, blandit phasellus consectetuer dolor ornare dapibus enim ut tincidunt rhoncus tellus sollicitudin pede nam maecenas, dolor sem. Neque sollicitudin enim. Dapibus lorem feugiat facilisi faucibus et. Rhoncus.</p> 
+                  <button class="float-left border-b border-black hover:text-blue-400 hover:border-blue-400 ">Learn More</button>
+                    </div>
+  
+                    
+                    
+              </div>    
+             </div>
+  
+            <!-- Fresh food End -->
+             
+            <!-- Rooms Start -->
+            <div class="text w-100 h-auto lg:h-[100px] mt-[30px] text-center">
+              <p class="text-blue-400 text-[18px]">Featured Rooms</p>
+              <h1 class="text-[40px]">Choose a Better Room</h1>
+            </div>
+
+              <div class="row grid grid-cols-6 lg:grid-cols-12 mt-[30px]">
+
+                <div id="rooms" class="room1 col-span-6 w-100 mt-[20px] lg:mt-0 h-[500px] bg-[#424141e1] pl-[20px] lg:pl-[50px] text-white flex flex-col justify-end pb-[20px]  bg-[url(Assets/room1.png)] bg-cover bg-no-repeat ">
+                 <div class="roomtext  w-auto lg:w-[90%] h-[80px]">
+                  <p class="text-[17px] font-light">From $250/night</p>
+                  <h1 class=" text-[30px] font-semibold float-left">  Superior Room</h1>
+
+                  <div class="book w-[20%] float-end mr-[20px] lg:mr-0mr-[20px] lg:mr-0 ">
+                    <button class="border-b-2 " id="btn">BOOK NOW</button>
+                  </div>
+                 </div>
+                </div>
+
+
+                <div id="room2" class="room1 col-span-6 w-100 mt-[20px] lg:mt-0 h-[500px] bg-[#424141e1] lg:pl-[50px] text-white flex flex-col justify-end pb-[20px]  bg-[url(Assets/room2.png)] bg-cover bg-no-repeat ">
+                  <div class="text  w-auto lg:w-[90%] h-[80px]">
+                   <p class="text-[17px] font-light">From $250/night</p>
+                   <h1 class=" text-[30px] font-semibold float-left">  Deluxe Room</h1>
+ 
+                   <div class="book w-[20%] float-end mr-[20px] lg:mr-0 ">
+                     <button class="border-b-2 " id="btn2">BOOK NOW</button>
+                   </div>
+                  </div>
+                 </div>
+ 
+
+              </div>
+
+              <div class="row grid grid-cols-6 lg:grid-cols-12 mt-[20px] lg:mt-0">
+
+                <div id="room3" class="room1 col-span-6 w-100 mt-[20px] lg:mt-0 h-[500px] bg-[#424141e1] lg:pl-[50px] text-white flex flex-col justify-end pb-[20px]  bg-[url(Assets/room3.png)] bg-cover bg-no-repeat ">
+                  <div class="text  w-auto lg:w-[90%] h-[80px]">
+                   <p class="text-[17px] font-light">From $250/night</p>
+                   <h1 class=" text-[30px] font-semibold float-left">Signature Room</h1>
+ 
+                   <div class="book w-[20%] float-end mr-[20px] lg:mr-0 ">
+                     <button class="border-b-2 " id="btn3">BOOK NOW</button>
+                   </div>
+                  </div>
+                 </div>
+ 
+
+                 <div id="room4" class="room1 col-span-6 w-100 mt-[20px] lg:mt-0 h-[500px] bg-[#424141e1] lg:pl-[50px] text-white flex flex-col justify-end pb-[20px]  bg-[url(Assets/room4.png)] bg-cover bg-no-repeat ">
+                  <div class="text  w-auto lg:w-[90%] h-[80px]">
+                   <p class="text-[17px] font-light">From $250/night</p>
+                   <h1 class=" text-[30px] font-semibold float-left"> Couple Room</h1>
+ 
+                   <div class="book w-[20%] float-end mr-[20px] lg:mr-0 ">
+                     <button class="border-b-2 " id="btn4">BOOK NOW</button>
+                   </div>
+                  </div>
+                 </div>
+ 
+                
+              </div>
+
+              <!-- Rooms End -->
+
+              <!-- Query Start -->
+               <div class="box w-auto  lg:w-100 h-auto lg:h-[100px] px-6 lg:px-0 mt-[90px] sm:flex justify-center">
+                <div class="box1 w-auto h-auto p-[13px] lg:p-0 lg:w-[50%] bg-[90px] border-2 border-gray-300 content-center sm:flex justify-between items-center">
+                  <p class="text-[25px] ml-[20px]">For Reservation or Query? </p>
+                  <button  class="w-[60%] h-auto ml-[20px] lg:ml-0 p-[13px] lg:p-0 lg:w-[29%] rounded-[50px] bg-[#009DFF] text-white  lg:h-[50px] mr-[30px] hover:bg-transparent hover:text-[#009DFF] hover:border-2 border-[#009DFF] ">+10 576 377 4789</button>
+                </div>
+
+               </div>
+              <!-- Query End -->
+
+
+              <!-- gallray Start -->
+
+              <div class="photo w-100 h-[306x] mt-[150px] px-[20px] lg:px-0">
+                <div class="row grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+                  <div class="img1 w-100">
+                    <img src="Assets/1 (3).png" class=" w-[100%] lg:w-[100%]">
+                  </div>
+                  <div class="img1">
+                    <img src="Assets/2 (3).png" class=" w-[100%] lg:w-[100%]">
+                  </div>
+                  <div class="img1">
+                    <img src="Assets/3 (2).png" class=" w-[100%] lg:w-[100%]">
+                  </div>
+                  <div class="img1">
+                    <img src="Assets/4 (1).png" class=" w-[100%] lg:w-[100%]">
+                  </div>
+                  <div class="img1">
+                    <img src="Assets/5.png" class=" w-[100%] lg:w-[100%]">
+                  </div>
+                </div>
+              </div>
+
+              <!-- gallray End -->
+
+              <!-- Footer Start -->
+
+                <div class="footer w-100 h-auto lg:h-[600px] bg-black pt-[100px] text-white">
+                  <div class="main w-[80%] h-auto lg:h-[400px] ml-[10%] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 ">
+                    <div class="fot1 pt-[30px] pl-[30px]">
+                      <h1 class="text-[20px]">Address</h1>
+                      <p class="text-[#919191] mt-[20px]">200, Green road, Mongla,<br>
+                        New Yor City USA</p>
+                        <button class="border-b-2 mt-[20px] text-[#919191]">Get Direction</button>
+                    </div>
+
+                    <div class="fot1 pt-[30px] pl-[30px]">
+                      <h1 class="text-[20px]">Reservation</h1>
+                      <p class="text-[#919191] mt-[20px]">+10 367 267 2678<br>
+                        reservation@montana.com</p>
+                    </div>
+                    
+                    <div class="fot1 pt-[30px] pl-[30px]">
+                      <h1 class="text-[20px]">Navigation</h1>
+                      <p class="text-[#919191] mt-[20px] ml-[20px]">Home <br><br>Rooms <br><br>About <br> <br>News</p>
+                    </div>
+                    <div class="fot1 pt-[30px] pl-[30px]">
+                      <h1 class="text-[20px]">Newsletter</h1>
+                      <div class="email w-[100%] mt-[30px] h-[40px] bg-white flex justify-around">
+                        <input type="text" name="email" placeholder="Enter Your Email" class="border-none ml-[10px]">
+                        <button class="bg-[#009DFF] w-[40%]  lg:w-[30%] ml-[55px] lg:ml-[10px]" >Sign Up</button>
+                      </div>
+                      
+                      <p class="text-[#919191] mt-[20px]">Subscribe newsletter to get updates</p>
+                    </div>
+
+                  </div>
+                  <div class="news w-[80%] h-[80px] ml-[10%] border-t-2 border-gray-800 flex items-center justify-between">
+                    <p class="text-[#919191]">Copyright ©2024 All rights reserved | This template is made with ❤️ by Colorlib</p>
+                    <div class="icons w-[10%] h-[80px] flex items-center">
+                      <i class="ri-facebook-circle-fill pr-[20px] "></i>
+                      <i class="ri-instagram-line pr-[20px]"></i>
+                      <i class="ri-twitter-fill"></i>
+                    </div>
+                  </div>
+                </div>
+
+              <!-- Footer End -->
+
+ 
+
+</body>
+<!-- slider Start -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+<!-- slider End -->
+
+<script src="Jquery.js"></script>
+<script>
+
+          $(document).ready(function(){
+            $("#btn").hide()
+            $("#rooms").mouseenter(function(){
+              $("#btn").fadeIn()
+            })
+            $("#rooms").mouseleave(function(){
+              $("#btn").fadeOut()
+            })
+          
+          })
+          $(document).ready(function(){
+            $("#btn2").hide()
+            $("#room2").mouseenter(function(){
+              $("#btn2").fadeIn()
+            })
+            $("#room2").mouseleave(function(){
+              $("#btn2").fadeOut()
+            })
+          
+          })
+          $(document).ready(function(){
+            $("#btn3").hide()
+            $("#room3").mouseenter(function(){
+              $("#btn3").fadeIn()
+            })
+            $("#room3").mouseleave(function(){
+              $("#btn3").fadeOut()
+            })
+          
+          })
+          $(document).ready(function(){
+            $("#btn4").hide()
+            $("#room4").mouseenter(function(){
+              $("#btn4").fadeIn()
+            })
+            $("#room4").mouseleave(function(){
+              $("#btn4").fadeOut()
+            })
+          
+          })
+        
+
+          $(document).ready(function(){
+            $(".menulinks").hide()
+            $(".menu").click(function(){
+              $(".menulinks").slideToggle()
+            })
+          })
+
+</script>
+</html>

@@ -1,0 +1,368 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+
+    .main{
+        width: 100%;
+        position: absolute;
+        animation: animate  8s ease-in-out infinite;
+    }
+    @keyframes animate{
+        0%,100%{
+            background-image: url(Assets/1.jpg);
+        }
+        50%{
+            background-image: url(Assets/2.jpg);
+        }
+        75%{
+            background-image: url(Assets/3.jpg);
+        }
+    }
+    button{
+        transition: 1s;
+    }
+    a{
+        transition: 0.5s;
+    }
+  
+    .welcome .wel1 p{
+        font-family: cursive;
+    }
+    .back h1{
+        font-family: cursive;
+    }
+    .galary h1{
+        font-family: cursive;
+    }
+
+  </style>
+
+</head>
+<body>
+
+        <div class="pato h-[700px]  w-100">
+
+            <div class="main w-100  h-auto lg:h-[700px] bg-[url(Assets/1.jpg)] bg-no-repeat bg-cover ">
+                <div class="navbar   w-100 h-[80px] flex justify-between items-center">
+                    <div class="navleft w-[20%] h-[80px] flex items-center">
+                        <img src="Assets/logo.png" class="ml-[50%] ">
+                    </div>
+                    <div class="nav center   lg:w-[50%] h-[80px] text-white  hidden sm:hidden lg:flex justify-between items-center">
+                        <a href="" class="hover:text-red-400 hover:border-b hover:border-b-red-400">HOME</a>
+                        <a href ="" class="hover:text-red-400 hover:border-b hover:border-b-red-400">MENU</a>
+                        <a href ="" class="hover:text-red-400 hover:border-b hover:border-b-red-400">Reservatio  </a>
+                        <a href ="" class="hover:text-red-400 hover:border-b hover:border-b-red-400">Gallery</a>
+                        <a href ="" class="hover:text-red-400 hover:border-b hover:border-b-red-400">About </a>
+                        <a href ="" class="hover:text-red-400 hover:border-b hover:border-b-red-400">Blog</a>
+                        <a href ="" class="hover:text-red-400 hover:border-b hover:border-b-red-400">Contact</a>
+                    </div>
+                        <div class="navright w-[30%]  lg:w-[10%] mr-[90px] h-[80px]   text-white flex justify-evenly items-center">
+    
+                        <i class="ri-twitter-x-line sm:mr-10"></i>
+                        <i class="ri-facebook-fill sm:mr-10"></i>
+                        <i class="ri-twitter-fill sm:mr-10"></i>
+                        <i class="ri-menu-line lg:hidden text-white ml-[20px] sm:mr-10 text-[23px]  "></i>
+                    </div>
+                </div>
+
+
+                        <div class="menubar w-[40vw] h-[110vh] sm:w-[25vw] sm:h-[110vh] bg-white  fixed overflow-y-scroll overflow-x-hidden overscroll-contain scroll-white">
+                  
+                   
+                        <i class="ri-close-large-line text-[30px] ml-[80%] mb-[30px] mt-[10px]"></i>
+                           <div class="links flex flex-col w-100 h-[300px] justify-between items-center mt-30px">
+                               <a href="" class="hover:text-red-400 hover:border-b hover:border-b-red-400">HOME</a>
+                               <a href ="" class="hover:text-red-400 hover:border-b hover:border-b-red-400">MENU</a>
+                               <a href ="" class="hover:text-red-400 hover:border-b hover:border-b-red-400">Reservatio  </a>
+                               <a href ="" class="hover:text-red-400 hover:border-b hover:border-b-red-400">Gallery</a>
+                               <a href ="" class="hover:text-red-400 hover:border-b hover:border-b-red-400">About </a>
+                               <a href ="" class="hover:text-red-400 hover:border-b hover:border-b-red-400">Blog</a>
+                               <a href ="" class="hover:text-red-400 hover:border-b hover:border-b-red-400">Contact</a>
+                           </div>
+
+                           <button class=" w-[40%] h-auto rounded-3xl bg-black text-white text-[15px] mt-[15%] ml-[30%]  hover:text-white hover:bg-red-400 ">Reservation</button>
+                           
+                           <div class="gallary w-[100%] h-[500px] mt-[10px] ">
+                            <div class="fot3 w-[100%] h-auto  lg:w-[30%] lg:h-[500px] pl-[7%] pt-[50px] ">
+
+                                <h1 class="text-[25px] font-semibold mb-[25px] text-black flex flex-wrap">GALLERY</h1>
+                                <img src="Assets/fot (1).jpg" width="30%" class="float-left sm:h-[70px] sm:w-[40%] sm:ml-[10px] lg:mr-[10px] ">
+                                <img src="Assets/fot (2).jpg" width="30%" class="float-left sm:h-[70px] sm:w-[40%] sm:ml-[10px] lg:mr-[10px]">
+                                <img src="Assets/fot (3).jpg" width="30%" class="float-left sm:h-[70px] sm:w-[40%] sm:ml-[10px] lg:mr-[10px]">
+                                <img src="Assets/photo-gallery-04.jpg" width="30%" class="float-left sm:h-[70px] sm:w-[40%] sm:ml-[10px]"> 
+                             
+                                <img src="Assets/fot (4).jpg" width="30%" class="float-left sm:h-[70px] sm:w-[40%] sm:ml-[10px] lg:mr-[10px] lg:mt-[10px]">  
+                                <img src="Assets/fot (5).jpg" width="30%" class="float-left sm:h-[70px] sm:w-[40%] sm:ml-[10px] lg:mr-[10px] lg:mt-[10px]">  
+                                <img src="Assets/fot (6).jpg" width="30%" class="float-left sm:h-[70px] sm:w-[40%] sm:ml-[10px] lg:mr-[10px] lg:mt-[10px]">  
+                                <img src="Assets/fot (7).jpg" width="30%" class="float-left sm:h-[70px] sm:w-[40%] sm:ml-[10px] lg:mt-[10px]">  
+                               
+                                <img src="Assets/fot (8).jpg" width="30%" class="float-left sm:h-[70px] sm:w-[40%] sm:ml-[10px] lg:mr-[10px] lg:mt-[10px]">  
+                                <img src="Assets/fot (9).jpg" width="30%" class="float-left sm:h-[70px] sm:w-[40%] sm:ml-[10px] lg:mr-[10px] lg:mt-[10px]">  
+                                <img src="Assets/photo-gallery-11.jpg" width="30%" class="float-left sm:h-[70px] sm:w-[40%] sm:ml-[10px] lg:mr-[10px] lg:mt-[10px]">  
+                                <img src="Assets/fot (10).jpg" width="30%" class="float-left sm:h-[70px] sm:w-[40%] sm:ml-[10px] lg:mt-[10px]">   
+
+                            </div>  
+                           </div>
+                           
+                       </div>  
+                
+    
+                <div class="text w-[60%] h-auto text-white  mt-32 ml-[20%] text-center ">
+                    <h1 class="text-[50px] font-serif">Welcome to</h1>
+                    <h1 class="text-[90px] font-bold">PATO PALACE</h1>
+                    <button class=" w-auto h-[50px] lg:w-[16%] lg:h-[40px] rounded-3xl bg-white text-red-500  lg:text-[15px] mt-[30px] hover:text-white hover:bg-red-400  ">LOOK MENU</button>
+                
+                </div> 
+               
+               
+        
+            </div> 
+        </div>
+
+       
+            <div class="welcome w-auto h-auto    sm:ml-[30px]  lg:w-100 lg:h-[500px]  lg:mt-[30px] pt-[70px] lg:pl-[150px] lg:flex">
+                <div class="wel1 sm:h-auto w-auto ml-[60px] sm:ml-[50px] lg:w-[40%] h-[400px] mr-[80px]  text-center sm:mb-[40px] pt-[30px]">
+                    <p class="font-bold text-[25px]  text-red-500">Italian Restaurant</p>
+                    <h1 class="font-bold text-[60px]  mb-[30px]">Welcome</h1>
+                    <span class="text-[#666666] "> Donec quis lorem nulla. Nunc eu odio mi. Morbi nec lobortis est. Sed <br> fringilla, nunc sed imperdiet lacinia, nisl ante egestas mi, ac facilisis <br> ligula sem id neque.</span>
+                </div>
+                <div class="we1 lg:w-[40%] lg:h-[400px] ">
+                    <img src="Assets/4.jpg" width="80%" class="rounded-xl w-[50%] ml-[20%] sm:w-[40%] sm:ml-[30%] lg:w-[70%] lg:ml-[10%]">
+                </div>
+            </div>
+     
+
+            <div class="back w-100 h-[400px] bg-black mt-[30px] bg-[url(Assets/5.jpg)] bg-cover object-cover bg-fixed bg-no-repeat text-center pt-[140px]">
+                <h1 class="text-[40px] font-serif text-red-600">Discover</h1>
+                <p class="text-[60px] font-bold text-white">PATO PALACE</p>
+              </div>
+
+              <div class="blog   w-auto h-auto ml-[30px]  sm:ml-[20%]  lg:w-100 lg:h-[400px]  mt-[150px] mb-[10%]  lg:flex justify-evenly  lg:ml-[25px] mr-[25px] ">
+                <div class="blog1 w-auto h-auto mb-[30px] sm:mb-[30px] sm:w-[60%]   lg:w-[25%] lg:h-[400px]">
+                    <div class="img w-100 h-1220] overflow-hidden  transition duration-150 ">
+                        <img src="Assets/6.jpg" class=" h-[210px] w-[110%] rounded-xl object-cover hover:scale-110 overflow-hidden ease-in transition duration-150 ">
+                    </div>
+                    <h1 class="text-[25px] mt-[30px] tracking-widest text-black">Romantic Restaurant</h1>
+                    <p class="mt-[10px] mb-[10px] text-gray-400">Phasellus lorem enim, luctus ut velit eget, <br> con-vallis egestas eros.</p>
+                    <span class="mt-[20px] text-[#222222]">Learn More</span><i class="ri-arrow-right-line text-[18px] ml-[7px]"></i>
+                </div>
+                <div class="blog1 w-auto h-auto mb-[30px]  sm:mb-[30px] sm:w-[60%]    lg:w-[25%] lg:h-[400px]">
+                    <div class="img w-100 h-1220] overflow-hidden  transition duration-150 ">
+                        <img src="Assets/7.jpg" class=" h-[210px] w-[110%] rounded-xl object-cover hover:scale-110 overflow-hidden ease-in transition duration-150 ">
+                    </div>
+                    <h1 class="text-[25px] mt-[30px] tracking-widest text-black">Delicious Food</h1>
+                    <p class="mt-[10px] mb-[10px] text-gray-400">Aliquam eget aliquam magna, quis posuere risus <br> ac justo ipsum nibh urna</p>
+                    <span class="mt-[20px] text-[#222222]">Learn More</span><i class="ri-arrow-right-line text-[18px] ml-[7px]"></i>
+                </div>
+                <div class="blog1  w-auto h-auto mb-[30px] sm:mb-[30px]  sm:w-[60%]   lg:w-[25%] lg:h-[400px]">
+                    <div class="img w-100 h-1220] overflow-hidden  transition duration-150 ">
+                        <img src="Assets/8.jpg" class=" h-[210px] w-[110%] rounded-xl object-cover hover:scale-110 overflow-hidden ease-in transition duration-150 ">
+                    </div>
+                    <h1 class="text-[25px] mt-[30px] tracking-widest text-black"> Red Wines You Love</h1>
+                    <p class="mt-[10px] mb-[10px] text-gray-400">Sed ornare ligula eget tortor tempor, quis porta <br> tellus dictum.                    </p>
+                    <span class="mt-[20px] text-[#222222]">Learn More</span><i class="ri-arrow-right-line text-[18px] ml-[7px]"></i>
+                </div>
+
+                
+              </div>
+
+                <div class="galary w-auto h-auto sm:h-auto lg:h-[1000px] bg-[#F4F1EB] text-center pt-[50px]">
+                    <h1 class="text-[30px] font-serif text-red-600">Discover</h1>
+                    <p class="text-[50px] font-bold text-black">Our Menu</p>
+
+                        <div class="image h-auto  lg:w-[76%] lg:h-[780px]  lg:ml-[10%] mt-[30px]">
+
+                            <div class="img1 w-auto h-auto ml-[0px]  sm:ml-[30px]   lg:w-100  lg:h-[500px]   lg:flex overflow-hidden">
+                                <div class="im1 h-[600px] w-[90%] ml-[40px] sm:ml-[40px]  mb-[20px]  sm:h-[600px] sm:mb-[20px] sm:w-[80%] lg:w-[30%] lg:h-[500px]  rounded-xl bg-[url(Assets/9.jpg)] bg-cover hover:scale-110 overflow-hidden ease-in transition duration-150">
+                                    <div class="text w-[40%] h-[60px] bg-[#EBE9E7]  flex justify-center items-center rounded-xl mt-[67%] ml-[29%] hover:bg-red-400 hover:text-white hover:transition">
+                                        <span class="font-semibold text-[22px] ">LUNCH</span>
+                                    </div>
+                                </div>
+                                <div class="im1 h-[600px] w-[90%] mb-[20px]  sm:h-[600px] sm:mb-[20px] sm:w-[80%] lg:w-[30%] lg:h-[500px]  rounded-xl ml-[40px] bg-[url(Assets/10.jpg)] bg-cover hover:scale-110 overflow-hidden ease-in transition duration-150 ">
+                                    <div class="text w-[40%] h-[60px] bg-[#EBE9E7]  flex justify-center items-center rounded-xl mt-[67%] ml-[29%] hover:bg-red-400 hover:text-white hover:transition">
+                                        <span class="font-semibold text-[22px] ">DINNER</span>
+                                    </div>
+                                </div>
+                                <div class="im1  h-[600px] w-[90%] mb-[20px]  sm:h-[600px] sm:w-[80%] lg:w-[30%] lg:h-[500px]  rounded-xl ml-[40px] overflow-hidden">
+                                    <div class="back1 w-100 h-[230px] rounded-xl bg-[url(Assets/11.jpg)] bg-cover hover:scale-110 overflow-hidden ease-in transition duration-150">
+                                        <div class="text w-[40%] h-[60px] bg-[#EBE9E7]  flex justify-center items-center rounded-xl mt-[25%] ml-[29%] hover:bg-red-400 hover:text-white hover:transition">
+                                            <span class="font-semibold text-[22px] ">DRINK</span>
+                                        </div>
+                                    </div>
+                                    <div class="back1 w-100 h-[230px] mt-[40px] rounded-xl bg-[url(Assets/our-menu-10.jpg)] bg-cover hover:scale-110 overflow-hidden ease-in transition duration-150">
+                                        <div class="text w-[40%] h-[60px] bg-[#EBE9E7]  flex justify-center items-center rounded-xl mt-[25%] ml-[29%] hover:bg-red-400 hover:text-white hover:transition">
+                                            <span class="font-semibold text-[22px] ">STARTERS</span>
+                                        </div> 
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="im2 h-auto lg:w-100  lg:h-[250px]  lg:flex  lg:mt-[30px] overflow-hidden">
+                                <div class="im21 h-[200px] w-[90%] mb-[20px] ml-[50px] sm:h-[200px] sm:mb-[20px] sm:w-[80%]  lg:w-[63%] lg:h-[250px]  rounded-xl bg-[url(Assets/our-menu-13.jpg)] bg-cover hover:scale-110 overflow-hidden ease-in transition duration-150">
+                                    <div class="text w-[40%] h-[60px] bg-[#EBE9E7]  flex justify-center items-center rounded-xl mt-[15%] ml-[29%] hover:bg-red-400 hover:text-white hover:transition">
+                                        <span class="font-semibold text-[22px] ">HAPPY HOUR</span>
+                                    </div>
+                                </div>
+                                <div class="im21 h-[200px] w-[90%] mb-[20px]  sm:h-[200px] sm:mb-[20px] sm:w-[80%] lg:w-[30%] lg:h-[250px]  ml-[48px] rounded-xl  bg-[url(Assets/12.jpg)] bg-cover hover:scale-110 overflow-hidden ease-in transition duration-150">
+                                    <div class="text  w-[40%] h-[60px] bg-[#EBE9E7]  flex justify-center items-center rounded-xl mt-[20%] sm:mt-[10%] lg:mt-[30%] ml-[29%] hover:bg-red-400 hover:text-white hover:transition">
+                                        <span class="font-semibold text-[22px] ">DESSERT</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                </div>
+
+                <div class="review w-100 h-[500px] mt-[70px] text-center   ">
+                    <p class="font-bold text-[25px]  text-red-500">Customers Say</p>
+                    <h1 class="font-bold text-[60px]  mb-[30px]"> Review</h1>
+
+                    <img src="Assets/14.jpg" width="8%"  class="border-4 ml-[45%] border-red-600 rounded-[50%]">
+                    <p class="mt-[50px] text-gray-600 mb-[30px]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores animi quo quae doloremque aspernatur sint <br> laboriosam nulla soluta harum commodi id error ducimus vitae ab, ut quia. Eos, voluptatibus molestias?</p>
+                    <i class="ri-star-fill text-[#EC1D25]"></i>
+                    <i class="ri-star-fill text-[#EC1D25]"></i>
+                    <i class="ri-star-fill text-[#EC1D25]"></i>
+                    <i class="ri-star-fill text-[#EC1D25]"></i>
+                    <i class="ri-star-fill text-[#EC1D25]"></i>
+                    <h1 class="text-[15px] mt-[30px] text-gray-600">MARIE SIMMONS-NEW YORK</h1>
+                </div>
+
+                    <div class="video w-100 h-[600px] mt-[40px] bg-[url(Assets/15.jpg)] bg-cover bg-fixed text-center pt-[16%]">
+        
+                        <p class="font-bold text-[25px]  text-red-500">Discover</p>
+                        <h1 class="font-bold text-[60px]  mb-[30px] text-white"> Our Video</h1>
+                    </div>
+
+                    <div class="newss w-100 h-auto  mt-[100px]  pt-[40px]">
+                        <p class="font-bold text-[25px]  text-red-500 ml-[30%] sm:ml-[35%] lg:ml-[45%]">Latest News</p>
+                        <h1 class="font-bold text-[70px]  mb-[30px] text-black  ml-[20%] sm:ml-[30%] lg:ml-[40%]">The Blog</h1>
+                        <div class="blog   w-auto h-auto ml-[30px]  sm:ml-[20%]  lg:w-100 lg:h-[400px]  mt-[100px] mb-[10%]  lg:flex justify-evenly  lg:ml-[25px] mr-[25px] ">
+
+                            <div class="blog1 w-auto h-auto mb-[30px] sm:mb-[30px] sm:w-[60%]   lg:w-[25%] lg:h-[400px]">
+                                <div class="img w-100 h-1220] overflow-hidden  transition duration-150 ">
+                                    <img src="Assets/16.jpg" class=" h-[210px] w-[110%] rounded-xl object-cover hover:scale-110 overflow-hidden ease-in transition duration-150 ">
+                                </div>
+                                <h1 class="text-[25px] mt-[30px] tracking-widest text-black">Best Places for Wine</h1>
+                                <p class="mt-[10px] mb-[10px] text-gray-400">Phasellus lorem enim, luctus ut velit eget, <br> con-vallis egestas eros.</p>
+                                <span class="mt-[20px] text-[#222222]">Learn More</span><i class="ri-arrow-right-line text-[18px] ml-[7px]"></i>
+                            </div>
+
+                            <div class="blog1 w-auto h-auto mb-[30px]  sm:mb-[30px] sm:w-[60%]    lg:w-[25%] lg:h-[400px]">
+                                <div class="img w-100 h-1220] overflow-hidden  transition duration-150 ">
+                                    <img src="Assets/17.jpg" class=" h-[210px] w-[110%] rounded-xl object-cover hover:scale-110 overflow-hidden ease-in transition duration-150 ">
+                                </div>
+                                <h1 class="text-[25px] mt-[30px] tracking-widest text-black">Eggs and Cheese</h1>
+                                <p class="mt-[10px] mb-[10px] text-gray-400">Aliquam eget aliquam magna, quis posuere risus <br> ac justo ipsum nibh urna</p>
+                                <span class="mt-[20px] text-[#222222]">Learn More</span><i class="ri-arrow-right-line text-[18px] ml-[7px]"></i>
+                            </div>
+                            <div class="blog1  w-auto h-auto mb-[30px] sm:mb-[30px]  sm:w-[60%]   lg:w-[25%] lg:h-[400px]">
+                                <div class="img w-100 h-1220] overflow-hidden  transition duration-150 ">
+                                    <img src="Assets/18.jpg" class=" h-[210px] w-[110%] rounded-xl object-cover hover:scale-110 overflow-hidden ease-in transition duration-150 ">
+                                </div>
+                                <h1 class="text-[25px] mt-[30px] tracking-widest text-black">Style the Wedding Party</h1>
+                                <p class="mt-[10px] mb-[10px] text-gray-400">Sed ornare ligula eget tortor tempor, quis porta <br> tellus dictum.                    </p>
+                                <span class="mt-[20px] text-[#222222]">Learn More</span><i class="ri-arrow-right-line text-[18px] ml-[7px]"></i>
+                            </div>
+            
+                            
+                          </div>
+            
+                    </div>
+
+
+                    <div class="footer w-100 h-auto bg-slate-500">
+
+                        <div class="fot1 w-auto h-[150px] sm:h-[200px] lg:w-100 lg:h-[250px] bg-[#EFEFEF] text-center pt-[7%] flex justify-center">
+                            <p class="text-[20px]">Specials Sign up</p>
+                           <div class="email w-auto  h-[50px] sm:h-[50px] lg:w-[26%] lg:h-[40px] bg-white ml-[20px] rounded-xl">
+                            <input type="text" class=" w-auto sm:h-[50px] lg:w-[88%]  lg:h-[40px]  pl-[20px] rounded-xl border-none hover:border-none " placeholder="Email Adrress" > 
+                            <i class="ri-mail-fill text-[25px]"></i>
+                           </div>
+                        </div>
+
+                        <div class="fot2 w-auto h-auto  sm:flex sm:flex-col items-center  lg:w-100 lg:h-[500px] bg-[#222222] lg:flex lg:flex-row">
+                            <div class="fot3 w-auto h-auto lg:w-[30%] lg:h-[500px] pl-[7%] pt-[50px] text-[#999999]">
+                                <h1 class="text-[25px] font-semibold mb-[25px] text-white">Contact Us</h1>
+                                <i class="ri-map-pin-line float-left mb-[7px]"></i> 
+                                <p class="float-left ml-[10px] text-[14px] mr-[10px] mb-[7px]"> 8th floor, 379 Hudson St, New York, NY 10018</p><br><br>
+                                <i class="ri-phone-fill float-left"></i>
+                                <p class=" ml-[30px] text-[14px] " > (+1) 96 716 6879</p><br>
+                                <i class="ri-mail-fill float-left  mb-[10px]"></i>
+                                <p class="float-left ml-[10px] text-[14px]  mb-[10px] "> contact@site.com</p><br><br><br><br>
+
+                                <h1 class="text-[25px] font-semibold mb-[25px] text-white">Opening Times</h1>
+                                <p class="text-[14px]">09:30 AM – 11:00 PM <br>
+                                    Every Day</p>
+                            </div>
+                            <div class="fot3  w-auto h-auto lg:w-[30%] lg:h-[500px] pl-[7%] pt-[50px] text-[#999999]">
+                                <h1 class="text-[25px] font-semibold mb-[25px] text-white">Latest twitter</h1>
+                                <i class="ri-twitter-fill float-left"></i>
+                                <h2 class="text-red-600 float-left ml-[10px] ">@colorlib</h2><br>
+                            <p class="mt-[10px]">Activello is a good option. It has a slider built into that displays the featured image in the slider.</p>
+                                <h1 class="text-red-600 mt-[10px]">https://buff.ly/2zaSfAQ</h1>
+                                <p class="text-[14px] text-gray-600 mt-[30px] mb-[30px]">21 Dec 2017</p>
+                                <i class="ri-twitter-fill float-left"></i>
+                                <h2 class="text-red-600 float-left ml-[10px] ">@colorlib</h2><br>
+                                <p class="mt-[10px] float-left">Activello is a good option. It has a slider built into that displays <h1 class=" float-left text-red-600">https://buff.ly/2zaSfAQ</h1> </p>
+                        <br><br><br>
+                                <p class="text-[14px] text-gray-600 mt-[30px] mb-[30px]">21 Dec 2017</p>
+                            </div>
+                            <div class="fot3 w-[70%] h-[400px]  sm:h-auto lg:w-[30%] lg:h-[500px] pl-[7%] pt-[50px] ">
+
+                                <h1 class="text-[25px] font-semibold mb-[25px] text-white flex flex-wrap">GALLERY</h1>
+                                <img src="Assets/fot (1).jpg" width="22%" class="float-left lg:mr-[10px] ">
+                                <img src="Assets/fot (2).jpg" width="22%" class="float-left lg:mr-[10px]">
+                                <img src="Assets/fot (3).jpg" width="22%" class="float-left lg:mr-[10px]">
+                                <img src="Assets/photo-gallery-04.jpg" width="22%" class="float-left"> 
+                             
+                                <img src="Assets/fot (4).jpg" width="22%" class="float-left lg:mr-[10px] lg:mt-[10px]">  
+                                <img src="Assets/fot (5).jpg" width="22%" class="float-left lg:mr-[10px] lg:mt-[10px]">  
+                                <img src="Assets/fot (6).jpg" width="22%" class="float-left lg:mr-[10px] lg:mt-[10px]">  
+                                <img src="Assets/fot (7).jpg" width="22%" class="float-left lg:mt-[10px]">  
+                               
+                                <img src="Assets/fot (8).jpg" width="22%" class="float-left lg:mr-[10px] lg:mt-[10px]">  
+                                <img src="Assets/fot (9).jpg" width="22%" class="float-left lg:mr-[10px] lg:mt-[10px]">  
+                                <img src="Assets/photo-gallery-11.jpg" width="22%" class="float-left lg:mr-[10px] lg:mt-[10px]">  
+                                <img src="Assets/fot (10).jpg" width="22%" class="float-left lg:mt-[10px]">   
+
+                            </div>
+                        </div>
+
+                    <div class="fot4 w-auto h-[100px] sm:h-[100px] w-100 lg:w-100 lg:h-[80px] bg-[#111111] flex justify-between items-center ">
+                            <div class="icon w-[30%] ml-[100px] text-white ">
+                                <i class="ri-twitter-x-line mr-[10px]"></i>
+                                <i class="ri-facebook-fill mr-[10px] "></i>
+                                <i class="ri-twitter-fill "></i> 
+                            </div>
+                           
+                            <p class="mr-[100px] text-[#CCCCCC]">@ 2017 Colorlib. Get The Theme</p>
+                            
+                        </div>
+                    </div>
+
+
+
+</body>
+<script src="Jquery.js"></script>
+<script>
+        $(document).ready(function(){
+           $(".menubar").hide()
+            $(".ri-menu-line").click(function(){
+                $(".menubar").fadeIn()
+                $(".navbar").hide()
+            })
+            $(".ri-close-large-line ").click(function(){
+                $(".menubar").fadeOut(100)
+                $(".navbar").show()
+            })
+        })
+</script>
+
+</html> 

@@ -1,0 +1,403 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<style>
+  .navcenter a:hover{
+    color:#f32e2e;
+    transition: 1s;
+  }
+  .create button{
+    transition: 1s;
+  }
+
+  .row .grid .div1 .text .pera2{
+    display: none;
+  }
+  .row .grid .div1:hover .text .pera2{
+    display:block;
+    margin-top: 6px;
+    color: white;
+transition: all 0.3s ease-out 0s;
+  }
+  .row .grid .div1:hover .text .pera1{
+    display:none;
+  }
+  .row .grid .div1:hover .text h1{
+    color: white;
+    font-size: 25px;
+  }
+  .row .grid .div1:hover .text {
+    height: 170px;
+    transition: 1s;
+   transform: translateY(-20%);
+   overflow: hidden;
+   background-color:#FF1313;
+  }
+  .searching button:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+  }
+
+
+  /* Gallary */
+
+
+  .gallary .img1 .content{
+      visibility: hidden;
+    }
+
+    .gallary .img1 .content::before{
+      visibility: visible !important;
+    }
+    
+
+</style>
+<body>
+
+        <div class="main  w-[100%] sm:bg-cover w-100  h-[900px] bg-[url(Assets/h1_hero.jpg)] bg-no-repeat bg-[#4A4C57] bg-cover bg-blend-soft-light">
+          <div class="navbar w-100 h-[100px] bg-black opacity-60 flex justify-between">
+            <div class="navleft w-[20%] h-[100px]  flex justify-center items-center">
+              <img src="Assets/logo.png"  class="sm:w-[60%] lg:w-[30%]" >
+            </div>
+            <div class="navcenter w-[40%] hidden lg:flex items-center justify-between text-white">
+                <a href="">HOME</a>
+                <a href="">ABOUT</a>
+                <a href="">SERVICES</a>
+                <a href="">GALLERY</a>
+                <a href="">BLOG</a>
+                <a href="">CONTACT</a>
+            </div>  
+
+            <div class="navright w-[20%]   hidden lg:flex justify-center items-center">
+              <button class=" w-auto h-[50px] p-[10px]  lg:w-[40%] lg:h-[50px] bg-[#f32e2e] ">CONTACT US</button>
+            </div> 
+            <i class="ri-menu-line text-white lg:hidden flex justify-center items-center text-[25px] mr-[50px]"></i>
+            
+              
+          
+          </div>
+
+          <div class="menubar w-100 h-[400px] relative bg-[#4C4C4C] text-white flex flex-col justify-evenly items-center">
+              <a href="">HOME</a>
+              <a href="">ABOUT</a>
+              <a href="">SERVICES</a>
+              <a href="">GALLERY</a>
+              <a href="">BLOG</a>
+              <a href="">CONTACT</a>
+        
+          </div>
+        
+
+          <div class="text w-[35%] h-[200px] mt-[17%] ml-[10%] text-white">
+            <p class="text-[30px] font-serif border-b-4  border-b-red-600 absolute">Welcome to Intorior</p><br>
+            <h1 class="text-[60px] font-semibold font-serif mt-[40px]">Modern Interior <br> & Design</h1>
+          </div>
+
+        </div>
+
+        
+
+          <div class="clean  w-auto h-[600px] lg:w-100 lg:h-[380px] bg-[url(Assets/section_bg02.jpg)] bg-cover pt-[30px]">
+              <div class="moden w-auto h-auto  lg:w-[70%] lg:h-[300px]  lg:ml-[15%] flex flex-col md:flex md:flex-row lg:flex lg:flex-row justify-between items-center mt-[50px]">
+                
+                <div class="moden1 w-[70%] h-auto  lg:w-[35%] lg:h-[200px] ">
+                  <div class="square w-[15%] h-[120px] lg:w-[30%] lg:h-[120px] border border-gray-500 ml-[30px] overflow-visible float-left mb-[20px]">
+                  </div>
+                  <p class=" absolute float-left  lg:float-left lg:absolute   ml-[70px] mt-[30px] text-[20px] font-bold text-white  "> Clean and Services</p>
+                  <p class=" absolute float-left mt-[70px] sm:mt-[70px]  lg:float-right lg:absolute lg:mt-[70px] ml-[150px] text-[#A1A1A1] text-[15px]   ">For each project we establish <br> relationships with partners <br> who we know will help us.</p>
+                </div>
+
+                <div class="moden1 w-[70%] h-auto  lg:w-[35%] lg:h-[200px] ">
+                  <div class="square  w-[15%] h-[120px] lg:w-[30%] lg:h-[120px] border border-gray-500 ml-[30px] overflow-visible float-left mb-[20px]">
+                  </div>
+                  <p class=" absolute float-left  lg:float-left lg:absolute   ml-[70px] mt-[30px] text-[20px] font-bold text-white  "> Clean and Services</p>
+                  <p class=" absolute float-left mt-[70px] sm:mt-[70px]  lg:float-right lg:absolute lg:mt-[70px] ml-[150px] text-[#A1A1A1] text-[15px]   ">For each project we establish <br> relationships with partners <br> who we know will help us.</p>
+                </div>
+
+
+                <div class="moden1 w-[70%] h-auto  lg:w-[35%] lg:h-[200px] ">
+                  <div class="square  w-[15%] h-[120px] lg:w-[30%] lg:h-[120px] border border-gray-500 ml-[30px] overflow-visible float-left mb-[20px]">
+                  </div>
+                  <p class=" absolute float-left  lg:float-left lg:absolute   ml-[70px] mt-[30px] text-[20px] font-bold text-white  "> Clean and Services</p>
+                  <p class=" absolute float-left mt-[70px] sm:mt-[70px]  lg:float-right lg:absolute lg:mt-[70px] ml-[150px] text-[#A1A1A1] text-[15px]   ">For each project we establish <br> relationships with partners <br> who we know will help us.</p>
+                </div>
+
+                <!-- <div class="moden1 w-auto h-auto lg:w-[25%] lg:h-[250px] ">
+                  <div class="square w-[30%] h-[120px] border border-gray-500 ml-[30px] overflow-visible float-left">
+                  </div>
+                  <p class="lg:float-left lg:absolute  ml-[70px] mt-[30px] text-[20px] font-bold text-white"> Clean and Modern</p>
+                  <p class="lg:float-right lg:absolute  lg:mt-[70px] ml-[150px] text-[#A1A1A1] text-[15px]">For each project we establish <br> relationships with partners <br> who we know will help us.</p>
+                </div>
+
+                <div class="moden1 w-auto h-auto lg:w-[25%] lg:h-[250px] ">
+                  <div class="square w-[30%] h-[120px] border border-gray-500 ml-[30px] overflow-visible float-left">
+                  </div>
+                  <p class="lg:float-left lg:absolute  ml-[70px] mt-[30px] text-[20px] font-bold text-white"> Clean and Modern</p>
+                  <p class="lg:float-right lg:absolute  lg:mt-[70px] ml-[150px] text-[#A1A1A1] text-[15px]">For each project we establish <br> relationships with partners <br> who we know will help us.</p>
+                </div> -->
+
+
+              </div>
+          </div>
+
+            <div class="create w-100 h-[950px] bg-[#12151A] ">
+              <div class="create1 w-100 h-[700px]  md:bg-[url(Assets/section_bg04.jpg)] bg-cover pt-[25%]">
+                <div class="text w-au h-auto md:w-[55%] md:h-[500px] lg:w-[43%] lg:h-[470px] bg-white lg:ml-[20%] pt-[50px] pl-[50px] ">
+                  <p class="text-gray-500">Our Professional Services</p>
+                  <h1 class="text-[40px] font-semibold font-sans tracking-tight mt-[18px]">We will create modern and first <br> class intorior.</h1>
+                  <p class="text-gray-500 mt-[30px]">Aorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br>eiusmod tempor incididunt ut labore.</p>
+                  <p class="text-gray-500 mt-[30px] pb-[40px] ">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <br> eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <br> ad minim veniam, quis nostrud.</p>
+                </div>
+                
+              </div>
+              <button class="bg-[#FF1313]  w-auto h-[100px] lg:w-[20%] lg:h-[90px] md:float-end lg:mr-[150px] lg:mt-[30px] text-white hover:bg-white hover:text-black">DISCOVER  MORE  ABOUT OUS</button>
+            </div>      
+
+            <div class="services w-100 h-auto bg-[#12151A] pt-[30px] pb-[150px]  ">
+              <div class="best w-100 h-auto lg:h-[100px]  text-center text-white">
+                <p class="text-gray-500 ">Our Professional Services</p>
+                <h1 class="text-[50px] font-bold tracking-tight">Best Interitor Services</h1>
+
+              </div>
+
+              <div class="row ml-[10%] lg:ml-[0px]">
+                <div class="grid  sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 w-[80%]  ml-[10%] mt-[40px]">
+                  <div class="div1 w-[80%] h-auto lg:h-[450px] ">
+                    <img src="Assets/services1.png" width="100%">
+
+                    <div class="text w-100 h-auto lg:h-[130px] bg-white pt-[30px] pl-[30px] pb-[20px]">
+                      <h1 class="text-[30px] font-semibold">Lighting</h1>
+                      <p class="pera1 text-gray-500"> For each project we establish </p>
+                      <p class="pera2">For each project we establish relationships with partners who we know will help us.</p>
+
+                    </div>
+                  </div>
+                  <div class="div1 w-[80%] h-auto lg:h-[450px] ">
+                    <img src="Assets/services2.png" width="100%">
+
+                    <div class="text w-100 h-[130px] bg-white pt-[30px] pl-[30px]">
+                      <h1 class="text-[30px] font-semibold">Lighting</h1>
+                      <p class="pera1 text-gray-500"> For each project we establish </p>
+                      <p class="pera2">For each project we establish relationships with partners who we know will help us.</p>
+
+                    </div>
+                  </div>
+                  <div class="div1 w-[80%] h-auto lg:h-[450px] ">
+                    <img src="Assets/services3.png" width="100%">
+
+                    <div class="text w-100 h-[130px] bg-white pt-[30px] pl-[30px]">
+                      <h1 class="text-[30px] font-semibold">Lighting</h1>
+                      <p class="pera1 text-gray-500"> For each project we establish </p>
+                      <p class="pera2">For each project we establish relationships with partners who we know will help us.</p>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+              <div class="gallary w-100  lg:h-[1100px] bg-[#0C0F16] pl-[14%] pr-[10%] lg:pl-[0px] ">
+
+                <div class="gal1 w-100  lg:h-[500px] bg-[#0C0F16]  lg:flex  ">
+                  
+                  <div class="img1 w-auto h-[600px] pt-[20px] lg:w-[50%] lg:h-[500px] bg-[#0C0F16]  bg-[url(Assets/gallery1.png)] bg-cover bg-no-repeat">
+                     
+                      <!-- <div class="content w-100 h-[500px] bg-slate-400  ">
+
+                        <div class="text pt-[46%] pl-[30px]">
+                          <h1 class="float-left text-[30px] font-bold text-white">Intorior <br>
+                            Burj Khalifa</h1>
+                            <div class="icon w-[39px] h-[39px]  float-left ml-[20px] rounded-[50px] flex items-center justify-center text-white bg-red-500 mt-[50px]">
+                              <i class="ri-arrow-right-s-line"></i>
+                            </div>
+
+                        </div>
+
+                      </div> -->
+                      
+                    </div> 
+
+                    <div class="img1 w-auto h-[600px] mt-[20px] lg:w-[23%] lg:h-[500px] lg:mt-[0px]  lg:ml-[30px] bg-[url(Assets/gallery2.png)] bg-cover bg-no-repeat"></div>
+                    <div class="img1 w-auto h-[600px]  mt-[20px]   lg:w-[23%] lg:h-[500px] lg:mt-[0px]  lg:ml-[30px] bg-[url(Assets/gallery3.png)] bg-cover bg-no-repeat"></div>
+                </div>
+
+                <div class="gal1 w-100 h-auto  lg:h-[500px]    lg:flex lg:mt-[30px]  ">
+                    <div class="img1 w-auto h-[600px]  mt-[20px]  lg:w-[25%] lg:h-[500px] lg:ml-[0px]  lg:mr-[30px] lg:mt-[0px] bg-[url(Assets/gallery4.png)] bg-cover bg-no-repeat"></div>
+                    <div class="img1 w-auto h-[600px]  mt-[20px]  lg:w-[25%] lg:h-[500px] lg:ml-[0px]  lg:mr-[30px] lg:mt-[0px] bg-[url(Assets/gallery5.png)] bg-cover bg-no-repeat"></div>
+                    <div class="img1 w-auto h-[600px]  mt-[20px]  lg:w-[50%] lg:h-[500px] lg:ml-[0px] lg:mt-[0px] bg-[url(Assets/gallery6.png)] bg-cover bg-no-repeat"></div>
+                </div>
+            
+              </div>
+
+
+            <div class="creater w-100 h-auto lg:h-[800px] bg-[#12151A] pt-[90px]">
+                <p class="text-[20px] text-gray-500  text-center ">Creative derector</p>
+                <h1 class="text-[40px] font-semibold text-white  text-center ">Best Interitor Services</h1>
+                
+                <div class="photo w-auto h-auto lg:w-[70%] lg:h-[500px] mt-[60px] lg:ml-[15%] flex flex-col items-center lg:flex lg:flex-row justify-between ">
+
+                  <div class="photo1 h-auto w-auto lg:w-[30%] lg:h-[500px] ">
+                      <div class="img w-100 h-[400px]   overflow-hidden ">
+                        <img src="Assets/team2.png" class="hover:scale-105 ease-in-out overflow-hidden transition duration-150">
+                      </div>
+                   <h1 class="text-[35px] font-semibold text-white  mt-[12px]">Jhon Sunsa</h1>
+                    <p class="float-left text-gray-500">Creative derector</p>
+                  </div>
+<br>
+
+                
+                   <div class="photo1 h-auto w-auto lg:w-[30%] lg:h-[500px] ">
+                      <div class="img w-100 h-[400px]   overflow-hidden ">
+                        <img src="Assets/team1.png" class="hover:scale-105 ease-in-out overflow-hidden transition duration-150">
+                      </div>
+                   <h1 class="text-[35px] font-semibold text-white  mt-[12px]">Jhon Sunsa</h1>
+                    <p class="float-left text-gray-500">Creative derector</p>
+                  </div>
+                  <br>
+
+                  <div class="photo1 h-auto w-auto lg:w-[30%] lg:h-[500px] ">
+                    <div class="img w-100 h-[400px]   overflow-hidden ">
+                      <img src="Assets/team3.png" class="hover:scale-105 ease-in-out overflow-hidden transition duration-150">
+                    </div>
+                 <h1 class="text-[35px] font-semibold text-white  mt-[12px]">Jhon Sunsa</h1>
+                  <p class="float-left text-gray-500">Creative derector</p>
+                </div>
+                 
+                </div>
+              </div>
+
+
+                <div class="testi w-100  h-[600px] lg:h-[880px] bg-[#11141B] pt-[140px] text-center text-white" >
+                 <center><img src="Assets/testi-logo.png " ></center> 
+                 <p class="mt-[60px] ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus recusandae tenetur itaque  atque, quod <br> officia vel! Nobis nostrum nihil   odit architecto optio. Numquam nihil <br> aspernatur atque, ab voluptate suscipit maiores.
+                 </p>
+
+                <h1 class="mt-[60px] float-left ml-[45%]"> Christine Eve <p class="text-red-600 float-right">-Co Founder</p></h1>
+                
+              <div class="icon  w-auto h-auto lg:w-[75%] lg:h-[300px]  lg:mt-[10%] ml-[12%] flex sm:flex-col lg:flex lg:flex-row   justify-between items-center">
+                  <img src="Assets/brand1.png" class=" hidden lg:block">
+                  <img src="Assets/brand2.png"  class=" hidden lg:block" >
+                  <img src="Assets/brand3.png" class=" hidden lg:block">
+                  <img src="Assets/brand4.png" class=" hidden lg:block" >
+                  <img src="Assets/brand5.png" class=" hidden lg:block" >
+                </div>
+              
+              
+              </div>
+
+
+              <div class="searching w-100 h-auto lg:h-[300px] pb-[20px] bg-[#FF0000] lg:flex items-center">
+                <h1 class="text-white font-bold text-[45px] ml-[10%] float-left">Are you Searching For a First-Class <br> Consultant?</h1>
+                <button class="w-[20%] mt-[20px]  h-[70px] lg:w-[12%] lg:h-[60px]  ml-[17%] bg-black text-white ">CONTACT US</button>
+              </div>
+
+
+              <div class="news w-100 h-auto lg:h-[1000px] bg-[#0C0F16] pt-[80px]">
+
+                <div class="text w-100 h-auto lg:h-[150px]  pt-[30px] ">
+                  <p class="text-gray-400 text-[20px]  text-center">Our latest blog</p>
+                  <h1 class="text-white font-bold text-[50px]  text-center">Our recent news</h1>
+                </div>
+                  <div class="esay w-auto h-auto lg:w-[70%] lg:h-[600px] mt-[70px] lg:ml-[14%] flex flex-col items-center  lg:flex lg:flex-row lg:justify-between">
+
+                    <div class="esay1 h-[650px] w-auto  lg:w-[48%] lg:h-[600px]   ">
+                        <div class="IMG w-100 h-auto  lg:h-[340px]  overflow-hidden">
+                          <img src="Assets/home_blog1.png" class="hover:scale-105 ease-in-out overflow-hidden transition duration-150">
+                        </div>  
+
+                        <div class="whi w-100 h-[300px] lg:h-[260px] bg-white">
+                        <div class="black w-[42%] h-[60px] bg-[#16161A] flex justify-center items-center float-left">
+                          <p class="text-white text-[12px]">October 27, 2020</p>
+                        </div>
+                        <p class="text-[13px] text-gray-500 float-left mt-[20px] ml-[30px]"> By Admin - 30 Likes - 4 Comments</p>
+                       <br><br><br><br> <h1 class=" ml-[28px] text-[28px] -tracking-wider font-sans text-black font-bold">16 Easy Ideas to Use Everyday Stuff <br> in Kitchen.</h1>
+                       <button class="w-[6%] h-[2px] bg-black ml-[30px] float-left mt-[30px]"></button><p class="float-left ml-[15px] mt-[20px] text-[14px] text-gray-500">Read More</p>
+                      </div>
+
+                    </div>
+                    
+                    <div class="esay1 h-[650px] w-auto lg:w-[48%] lg:h-[600px]   ">
+                      <div class="IMG w-100 h-auto  lg:h-[340px]  overflow-hidden">
+                        <img src="Assets/home_blog2.png" class="hover:scale-105 ease-in-out overflow-hidden transition duration-150">
+                      </div>  
+
+                      <div class="whi w-100 h-[280px] lg:h-[260px] bg-white">
+                      <div class="black w-[42%] h-[60px] bg-[#16161A] flex justify-center items-center float-left">
+                        <p class="text-white text-[12px]">October 27, 2020</p>
+                      </div>
+                      <p class="text-[13px] text-gray-500 float-left mt-[20px]  ml-[30px]"> By Admin - 30 Likes - 4 Comments</p>
+                     <br><br><br><br> <h1 class=" ml-[28px] text-[28px] -tracking-wider font-sans text-black font-bold">16 Easy Ideas to Use Everyday Stuff <br> in Kitchen.</h1>
+                     <button class="w-[6%] h-[2px] bg-black ml-[30px] float-left mt-[30px]"></button><p class="float-left ml-[15px] mt-[20px] text-[14px] text-gray-500">Read More</p>
+                    </div>
+
+                  </div>
+                   
+                </div>
+               
+              </div>
+
+                <div class="footer  w-auto lg:w-100 h-auto lg:h-[700px] bg-[#11141B] pt-[5%]">
+                  <div class="fotmain lg:w-[70%] lg:h-[450px]  lg:ml-[14%] flex flex-col items-center lg:flex lg:flex-row lg:justify-between">
+                    <div class="fot1   w-auto h-auto lg:w-[30%] lg:h-[450px]    pt-[40px]">
+                      <img src="Assets/logo.png" width="40%">
+                      <p class="text-gray-500 mt-[30px] ">Grabbing the concsumer’s attention <br> isn’t enough you have to keep that <br> attention for at least a.</p>
+                      
+                      <h1 class="float-left  text-white mt-[30px] mb-[15px] text-[30px] font-semibold -tracking-tight" >+564 <p class="text-[#FF1313] float-right ml-[10px]">7885 3222</p> </h1>
+                      <p class="text-gray-500 ">youremail@gmail.com</p>
+                     </div>
+                    <div class="fot1 w-auto h-auto lg:w-[30%] lg:h-[450px]  pt-[30px]">
+                      <p class="text-white text-[25px] tracking-tight font-semibold">Useful Links</p>
+
+                        <h1 class="text-[#E21314] mt-[30px]">New York</h1>
+                        <p class="text-gray-500 mt-[20px]">123 East 26th Street, Fifth Floor, New <br> York, NY 10011</p>
+                        <h1 class="text-[#E21314] mt-[30px]">Japan</h1>
+                        <p class="text-gray-500 mt-[20px] ">123 East 26th Street, Fifth Floor, New <br> York, NY 10011</p>
+
+                    </div>
+                    <div class="fot1  w-auto h-auto lg:w-[30%] lg:h-[450px] mb-[40px]  pt-[30px] ">
+                      <h1 class="text-white text-[25px] tracking-tight font-semibold mb-[20px]">Instagram Feed</h1>
+                      <img src="Assets/instagram1.png" width="31%" class="h-[100px] float-left mr-[10px] mb-[10px]">
+                      <img src="Assets/instagram2.png" width="31%" class="h-[100px] float-left mr-[10px] mb-[10px]"> 
+                      <img src="Assets/instagram3.png" width="31%" class="h-[100px] mb-[10px]"> 
+                   
+                      <img src="Assets/instagram4.png" width="31%" class="h-[100px] float-left mr-[10px]">
+                      <img src="Assets/instagram5.png" width="31%" class="h-[100px] float-left mr-[10px]">
+                      <img src="Assets/instagram6.png" width="31%" class="h-[100px]">
+                    </div>
+                  </div>
+
+                  <div class="copy w-auto h-[100px] lg:w-[70%] lg:h-[70px] lg:ml-[14%] text-white flex items-center border-t-2 border-gray-600">
+                  
+                    <p class="text-[#BDBDBD]">Copyright ©2024 All rights reserved | This template is made with ❤️ by <h1 class=" ml-[10px] text-red-600 mr-[25%]">Colorlib</h1> </p>
+                   <p>
+                    Follow Us  ----  </p>
+                    <i class="ri-twitter-fill ml-[10px] mr-[20px]"></i>
+                      <i class="ri-facebook-fill mr-[20px]"></i>
+                      <i class="ri-instagram-line"></i>
+
+                  </div>
+                </div> 
+
+
+
+</body>
+<script src="Jquery.js"></script>
+<script>
+
+      $(document).ready(function(){
+           $(".menubar").hide()
+            $(".ri-menu-line").click(function(){
+                $(".menubar").slideToggle()
+            })
+            
+        })
+
+</script>
+</html>

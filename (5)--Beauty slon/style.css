@@ -1,0 +1,112 @@
+.navbar .navleft{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.navbar .navright a{
+    transition: 0.5s;
+}
+
+.navbar .navright a:hover{
+    color: #F29496;
+    transition: 0.5s;
+}
+
+.main .home .right{
+    animation: animate  13s ease-in-out infinite;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background-size: cover;
+}
+@keyframes  animate{
+    0%,20%,100%{
+        background-image: url(Assets/bg_1.png);
+    }
+    50%{
+        background-image:  url(Assets/bg_2.png);
+    }
+    /* 100%{
+        background-image:  url(Assets/bg_1.png);
+    } */
+
+}
+
+.main .home  .left h1::after{
+    position: absolute;
+    content: ' ';
+    animation:changetext  10s ease-in infinite ;
+
+}
+@keyframes  changetext{
+    0%,100%{content: "Get Pretty Look";}
+    30%{content: "Beauty Salon";}
+    40%{content: "Get Pretty Look";}
+    70%{content: "Beauty Salon";}
+    80%{content: "Get Pretty Look";}
+    
+}
+.beauty .beauty1{
+    transition: 1s;
+}
+
+.beauty .beauty1:hover{
+    transition: 1s;
+    background-color: #F18C8E;
+}
+
+.border .img h1{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.Reservation input{
+    border: none;
+    border: 0px solid;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+}
+.Reservation input textarea:focus, input:focus{
+    outline: none;
+}
+
+.Reservation input::placeholder{
+    font-size: 13px;
+}
+.price  .price1 p .pric{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.price  .price1 p .per{
+    font-size: 15px;
+    font-weight: lighter;
+}
+.price  .price1 ul li{
+    list-style: none;
+    padding: 10px 20px;
+    color: #999999;
+}
+.price  .price1{
+    transition: 1s;
+}
+.price  .price1:hover{
+    transition: 1s;
+    
+}
+
+.price  .price1 button:hover{
+    background-color: black;
+}
+
+.footer .fot1 #ab{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.menubar p{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
